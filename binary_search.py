@@ -27,8 +27,8 @@ def recursive_binary_search(arr, element, low, high):
 def main():
     arr = [11, 22, 33, 44, 55, 66, 77, 88, 99]
     element = 55
-    if sys.argv[1] is not None:
-        element = int(sys.argv[1])
+    # if sys.argv[1] is not None:
+        # element = int(sys.argv[1])
     # iterative_binary_search(arr, element, low, high)
     print iterative_binary_search(arr, element, 0, len(arr) - 1)
 
